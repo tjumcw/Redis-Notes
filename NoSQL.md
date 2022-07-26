@@ -4,7 +4,7 @@
 
 ### 1、单机MySQL的年代
 
-![image-20220723144222565](C:\Users\mcw\AppData\Roaming\Typora\typora-user-images\image-20220723144222565.png)
+![image](https://user-images.githubusercontent.com/106053649/181044896-4d18193e-bcb3-4032-9fd8-86e5ea6a0276.png)
 
 - DAL表示数据访问层
 
@@ -12,7 +12,7 @@
 
 ### 2、Memcached（缓存）+ MySQL + 垂直拆分（读写分离）
 
-![image-20220723144409713](C:\Users\mcw\AppData\Roaming\Typora\typora-user-images\image-20220723144409713.png)
+![image](https://user-images.githubusercontent.com/106053649/181044938-adb94d23-6dee-4dec-b2d2-358ec9f6fcb3.png)
 
 
 
@@ -24,7 +24,7 @@
 - 转战Innodb：行锁
 - 慢慢地通过分库分表解决写的压力
 
-![image-20220723150205505](C:\Users\mcw\AppData\Roaming\Typora\typora-user-images\image-20220723150205505.png)
+![image](https://user-images.githubusercontent.com/106053649/181045049-df978201-f3cf-470a-9ed8-17f231856f84.png)
 
 - 其中，M和S分别表示MySQL的主、从节点
 
