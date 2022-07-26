@@ -1,4 +1,4 @@
-# Redis学习笔记——NoSQL概述
+# Redis——NoSQL概述
 
 ## ——为什么用NoSQL
 
