@@ -7,13 +7,13 @@
 
 第一个：消息发送者，第二个：频道，第三个：消息订阅者
 
-![image-20220726215504070](C:\Users\tjumc\AppData\Roaming\Typora\typora-user-images\image-20220726215504070.png)
+![image](https://user-images.githubusercontent.com/106053649/181217676-e6307e50-26e7-45b8-adfa-871016171f3b.png)
 
 
 
 #### 发布订阅相关命令
 
-![image-20220726220103905](C:\Users\tjumc\AppData\Roaming\Typora\typora-user-images\image-20220726220103905.png)
+![image](https://user-images.githubusercontent.com/106053649/181217727-db394d6c-aceb-4b16-aa3e-7064c4341994.png)
 
 
 
@@ -51,4 +51,4 @@ Reading messages... (press Ctrl-C to quit)
 
 #### 原理
 
-![image-20220726220720946](C:\Users\tjumc\AppData\Roaming\Typora\typora-user-images\image-20220726220720946.png)
+![image](https://user-images.githubusercontent.com/106053649/181217793-e1500dbd-aa3e-42b6-a2ea-9a3315116601.png)
