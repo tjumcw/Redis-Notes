@@ -2,7 +2,7 @@
 
 ### 概念
 
-![image-20220727131857164](C:\Users\mcw\AppData\Roaming\Typora\typora-user-images\image-20220727131857164.png)
+![image](https://user-images.githubusercontent.com/106053649/181399039-87873c6f-69c2-4e86-8ffe-fd4803e907f2.png)
 
 - 主从复制和读写分离，一个主机多个从机，主机负责写，从机负责读（大部分的操作都是读操作）
 - 主从复制的用处
@@ -16,7 +16,7 @@
 
 ### 架构
 
-![image-20220727132119863](C:\Users\mcw\AppData\Roaming\Typora\typora-user-images\image-20220727132119863.png)
+![image](https://user-images.githubusercontent.com/106053649/181399072-5b5c005a-b36c-45b8-82cb-a1e1ae227776.png)
 
 
 
@@ -276,7 +276,7 @@ repl_backlog_histlen:14
   - 全量复制
   - 增量复制
 
-![image-20220727141745123](C:\Users\mcw\AppData\Roaming\Typora\typora-user-images\image-20220727141745123.png)
+![image](https://user-images.githubusercontent.com/106053649/181399137-0e1b25c2-45d6-495c-8a59-d518958f0055.png)
 
 
 
@@ -424,7 +424,7 @@ repl_backlog_histlen:2710
 - 哨兵模式是一种特殊的模式，首先Redis提供了哨兵的命令。哨兵是一个独立的进程，作为进程它会独立运行。
 - 原理是==哨兵通过发送命令，等待Redis服务器响应，从而监控运行的多个Redis实例==
 
-![image-20220727145747124](C:\Users\mcw\AppData\Roaming\Typora\typora-user-images\image-20220727145747124.png)
+![image](https://user-images.githubusercontent.com/106053649/181399176-dc643d77-ec54-4080-b2bc-53b0ad9fc8de.png)
 
 这里的哨兵有两个作用
 
@@ -438,7 +438,7 @@ repl_backlog_histlen:2710
 - 利用多个哨兵进行监控Redis服务器
 - 各个哨兵之间还会互相监控
 
-![image-20220727150405178](C:\Users\mcw\AppData\Roaming\Typora\typora-user-images\image-20220727150405178.png)
+![image](https://user-images.githubusercontent.com/106053649/181399197-c657a1d2-d980-4a08-817c-64c5324a633b.png)
 
 
 
@@ -463,7 +463,7 @@ sentinel monitor myredis 127.0.0.1 6379 1
 redis-sentinel kconfig/sentinel.conf
 ```
 
-![image-20220727151032168](C:\Users\mcw\AppData\Roaming\Typora\typora-user-images\image-20220727151032168.png)
+![image](https://user-images.githubusercontent.com/106053649/181399221-a328b2cd-e3fa-41d6-97f9-5bb13415ef50.png)
 
 
 
@@ -484,7 +484,7 @@ not connected> exit
 
 - 刚下线时6380和6381依旧是从机，过一会后哨兵监测到6379下线会发起重新投票选举
 
-![image-20220727151411673](C:\Users\mcw\AppData\Roaming\Typora\typora-user-images\image-20220727151411673.png)
+![image](https://user-images.githubusercontent.com/106053649/181399243-1e4a6960-e702-40bc-a909-708def99e075.png)
 
 
 
